@@ -14,7 +14,6 @@ function CreateTeam() {
   const createTeam = useMutation(api.teams.createTeam);
   const { user }: any = useKindeBrowserClient();
   const router = useRouter();
-
   const createNewTeam = () => {
     createTeam({
       teamName: teamName,
@@ -27,7 +26,6 @@ function CreateTeam() {
       }
     });
   };
-
   return (
     <div className=" px-6 md:px-16 my-16">
       <Image src="/logo-black.png" alt="logo" width={200} height={200} />
@@ -49,7 +47,7 @@ function CreateTeam() {
         <Button
           className="bg-blue-500 mt-9 w-[30%] hover:bg-blue-600"
           disabled={!(teamName && teamName?.length > 0)}
-          onClick={()=>createNewTeam()}
+          onClick={() => createNewTeam()}
         >
           Create Team
         </Button>

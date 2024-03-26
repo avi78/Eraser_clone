@@ -1,3 +1,7 @@
+## Demo - 
+
+https://github.com/avi78/Eraser_clone/assets/92016042/4bf91133-6a67-45c5-be13-6a5e8500f1a3
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
